@@ -1,0 +1,110 @@
+{
+  "schema_version": "COHERENT-CSS-CERT-1.0",
+  "code_name": "rotsurf_d2_Xmaj",
+  "family": "rotated_surface",
+  "n": 4,
+  "k": 1,
+  "r_X": 2,
+  "r_Z": 1,
+  "H_X": [
+    [
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1
+    ]
+  ],
+  "H_Z": [
+    [
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "L_X": [
+    1,
+    1,
+    0,
+    0
+  ],
+  "L_Z": [
+    1,
+    0,
+    1,
+    0
+  ],
+  "L_Z_weight": 2,
+  "parity_branch": "even_lz_hermitian_pauli_optimal",
+  "swap_point": {
+    "regime": "swap_collapse_half",
+    "predicted_F_Pauli_pi4": "1/2",
+    "K_Z_dim": 1,
+    "K_Z_basis": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "immunity_witness_g_star": null
+  },
+  "trivial_syndrome_enumerator": {
+    "coset_0": [
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "coset_1": [
+      [
+        2,
+        2
+      ]
+    ]
+  },
+  "total_error_count": 16,
+  "evaluations": [
+    {
+      "p": "1/10",
+      "F_Pauli": "41/50",
+      "F_CPTP": "41/50",
+      "F_Twirl": "41/50",
+      "p_trivial_syndrome": "881/1250",
+      "num_syndromes": 4,
+      "equal_coset_syndromes": 3,
+      "zero_coset_syndromes": 0
+    },
+    {
+      "p": "1/5",
+      "F_Pauli": "17/25",
+      "F_CPTP": "17/25",
+      "F_Twirl": "17/25",
+      "p_trivial_syndrome": "353/625",
+      "num_syndromes": 4,
+      "equal_coset_syndromes": 3,
+      "zero_coset_syndromes": 0
+    },
+    {
+      "p": "1/2",
+      "F_Pauli": "1/2",
+      "F_CPTP": "1/2",
+      "F_Twirl": "1/2",
+      "p_trivial_syndrome": "1/2",
+      "num_syndromes": 4,
+      "equal_coset_syndromes": 4,
+      "zero_coset_syndromes": 2
+    }
+  ]
+}

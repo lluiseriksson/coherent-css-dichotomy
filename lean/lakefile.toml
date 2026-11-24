@@ -1,0 +1,7 @@
+name = "coherent-css"
+version = "1.0.0"
+defaultTargets = ["CoherentCSS"]
+
+[[lean_lib]]
+name = "CoherentCSS"
+roots = ["CoherentCSS"]

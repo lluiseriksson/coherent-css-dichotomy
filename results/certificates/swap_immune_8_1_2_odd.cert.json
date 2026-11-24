@@ -1,0 +1,211 @@
+{
+  "schema_version": "COHERENT-CSS-CERT-1.0",
+  "code_name": "swap_immune_8_1_2_odd",
+  "family": "swap_immune_witness",
+  "n": 8,
+  "k": 1,
+  "r_X": 4,
+  "r_Z": 3,
+  "H_X": [
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ]
+  ],
+  "H_Z": [
+    [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "L_X": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "L_Z": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "L_Z_weight": 3,
+  "parity_branch": "odd_lz_unitary_cptp",
+  "swap_point": {
+    "regime": "swap_immune_unit",
+    "predicted_F_Pauli_pi4": "1",
+    "K_Z_dim": 3,
+    "K_Z_basis": [
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    ],
+    "immunity_witness_g_star": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "trivial_syndrome_enumerator": {
+    "coset_0": [
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "coset_1": [
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        4
+      ]
+    ]
+  },
+  "total_error_count": 256,
+  "evaluations": [
+    {
+      "p": "1/10",
+      "F_Pauli": "26633/31250",
+      "F_CPTP": "1",
+      "F_Twirl": "28577/31250",
+      "p_trivial_syndrome": "31513/62500",
+      "num_syndromes": 16,
+      "equal_coset_syndromes": 0,
+      "zero_coset_syndromes": 0
+    },
+    {
+      "p": "1/5",
+      "F_Pauli": "317761/390625",
+      "F_CPTP": "1",
+      "F_Twirl": "11849/15625",
+      "p_trivial_syndrome": "5353/15625",
+      "num_syndromes": 16,
+      "equal_coset_syndromes": 0,
+      "zero_coset_syndromes": 0
+    },
+    {
+      "p": "1/2",
+      "F_Pauli": "1",
+      "F_CPTP": "1",
+      "F_Twirl": "1/2",
+      "p_trivial_syndrome": "1/4",
+      "num_syndromes": 16,
+      "equal_coset_syndromes": 12,
+      "zero_coset_syndromes": 16
+    }
+  ]
+}

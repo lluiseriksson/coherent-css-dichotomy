@@ -1,0 +1,203 @@
+{
+  "schema_version": "COHERENT-CSS-CERT-1.0",
+  "code_name": "shor_9_1_3",
+  "family": "concatenated",
+  "n": 9,
+  "k": 1,
+  "r_X": 2,
+  "r_Z": 6,
+  "H_X": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "H_Z": [
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  ],
+  "L_X": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "L_Z": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "L_Z_weight": 3,
+  "parity_branch": "odd_lz_unitary_cptp",
+  "swap_point": {
+    "regime": "swap_collapse_half",
+    "predicted_F_Pauli_pi4": "1/2",
+    "K_Z_dim": 0,
+    "K_Z_basis": [],
+    "immunity_witness_g_star": null
+  },
+  "trivial_syndrome_enumerator": {
+    "coset_0": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        4,
+        27
+      ],
+      [
+        6,
+        27
+      ]
+    ],
+    "coset_1": [
+      [
+        3,
+        27
+      ],
+      [
+        5,
+        27
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        1
+      ]
+    ]
+  },
+  "total_error_count": 512,
+  "evaluations": [
+    {
+      "p": "1/10",
+      "F_Pauli": "2941783/3906250",
+      "F_CPTP": "1",
+      "F_Twirl": "3322053/3906250",
+      "p_trivial_syndrome": "21433/62500",
+      "num_syndromes": 4,
+      "equal_coset_syndromes": 0,
+      "zero_coset_syndromes": 0
+    },
+    {
+      "p": "1/5",
+      "F_Pauli": "1947253/1953125",
+      "F_CPTP": "1",
+      "F_Twirl": "1288048/1953125",
+      "p_trivial_syndrome": "14173/15625",
+      "num_syndromes": 4,
+      "equal_coset_syndromes": 0,
+      "zero_coset_syndromes": 0
+    },
+    {
+      "p": "1/2",
+      "F_Pauli": "1/2",
+      "F_CPTP": "1",
+      "F_Twirl": "1/2",
+      "p_trivial_syndrome": "1/4",
+      "num_syndromes": 4,
+      "equal_coset_syndromes": 4,
+      "zero_coset_syndromes": 0
+    }
+  ]
+}

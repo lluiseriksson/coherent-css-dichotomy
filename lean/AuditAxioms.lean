@@ -1,0 +1,20 @@
+import CoherentCSS
+
+#print axioms CoherentCSS.xor_weight_exact
+#print axioms CoherentCSS.xor_weight_mod2
+#print axioms CoherentCSS.even_stab_preserves_parity
+#print axioms CoherentCSS.coset_parity_same_for_even_lz
+#print axioms CoherentCSS.coset_parity_opposite_for_odd_lz
+#print axioms CoherentCSS.hermitian_trace_norm_eq_max
+#print axioms CoherentCSS.unitary_rotation_exact_norm
+#print axioms CoherentCSS.pauli_infidelity_min_form
+#print axioms CoherentCSS.pauli_max_abs_identity
+#print axioms CoherentCSS.self_orthog_wt_mod4_additive
+#print axioms CoherentCSS.equal_coset_gives_half_fidelity
+#print axioms CoherentCSS.vanishing_coset_gives_unit_fidelity
+#print axioms CoherentCSS.odd_intersection_anticomm
+#print axioms CoherentCSS.doubly_even_sign_positive
+#print axioms CoherentCSS.steane_trivial_syndrome_unit_prob
+#print axioms CoherentCSS.rotsurf_d2_exact_cancellation
+#print axioms CoherentCSS.coherent_pauli_le_cptp
+#print axioms CoherentCSS.css_orthogonality_mod2_symm

@@ -1,0 +1,753 @@
+{
+  "experiment": "exp4_surface_and_rep_parity",
+  "p_values": [
+    "1/20",
+    "1/10",
+    "1/5",
+    "3/10",
+    "2/5",
+    "1/2"
+  ],
+  "rotated_surface": [
+    {
+      "code_name": "rotsurf_d2_Xmaj",
+      "d": 2,
+      "orientation": "X_majority",
+      "n": 4,
+      "parity": "even",
+      "swap_regime": "swap_collapse_half",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "181/200",
+          "F_CPTP_exact": "181/200",
+          "F_Twirl_exact": "181/200",
+          "F_Pauli": 0.905,
+          "F_CPTP": 0.905,
+          "F_Twirl": 0.905
+        },
+        "1/10": {
+          "F_Pauli_exact": "41/50",
+          "F_CPTP_exact": "41/50",
+          "F_Twirl_exact": "41/50",
+          "F_Pauli": 0.82,
+          "F_CPTP": 0.82,
+          "F_Twirl": 0.82
+        },
+        "1/5": {
+          "F_Pauli_exact": "17/25",
+          "F_CPTP_exact": "17/25",
+          "F_Twirl_exact": "17/25",
+          "F_Pauli": 0.68,
+          "F_CPTP": 0.68,
+          "F_Twirl": 0.68
+        },
+        "3/10": {
+          "F_Pauli_exact": "29/50",
+          "F_CPTP_exact": "29/50",
+          "F_Twirl_exact": "29/50",
+          "F_Pauli": 0.58,
+          "F_CPTP": 0.58,
+          "F_Twirl": 0.58
+        },
+        "2/5": {
+          "F_Pauli_exact": "13/25",
+          "F_CPTP_exact": "13/25",
+          "F_Twirl_exact": "13/25",
+          "F_Pauli": 0.52,
+          "F_CPTP": 0.52,
+          "F_Twirl": 0.52
+        },
+        "1/2": {
+          "F_Pauli_exact": "1/2",
+          "F_CPTP_exact": "1/2",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 0.5,
+          "F_CPTP": 0.5,
+          "F_Twirl": 0.5
+        }
+      }
+    },
+    {
+      "code_name": "rotsurf_d2_Zmaj",
+      "d": 2,
+      "orientation": "Z_majority",
+      "n": 4,
+      "parity": "even",
+      "swap_regime": "swap_immune_unit",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "81/100",
+          "F_CPTP_exact": "81/100",
+          "F_Twirl_exact": "181/200",
+          "F_Pauli": 0.81,
+          "F_CPTP": 0.81,
+          "F_Twirl": 0.905
+        },
+        "1/10": {
+          "F_Pauli_exact": "16/25",
+          "F_CPTP_exact": "16/25",
+          "F_Twirl_exact": "41/50",
+          "F_Pauli": 0.64,
+          "F_CPTP": 0.64,
+          "F_Twirl": 0.82
+        },
+        "1/5": {
+          "F_Pauli_exact": "16/25",
+          "F_CPTP_exact": "16/25",
+          "F_Twirl_exact": "17/25",
+          "F_Pauli": 0.64,
+          "F_CPTP": 0.64,
+          "F_Twirl": 0.68
+        },
+        "3/10": {
+          "F_Pauli_exact": "21/25",
+          "F_CPTP_exact": "21/25",
+          "F_Twirl_exact": "29/50",
+          "F_Pauli": 0.84,
+          "F_CPTP": 0.84,
+          "F_Twirl": 0.58
+        },
+        "2/5": {
+          "F_Pauli_exact": "24/25",
+          "F_CPTP_exact": "24/25",
+          "F_Twirl_exact": "13/25",
+          "F_Pauli": 0.96,
+          "F_CPTP": 0.96,
+          "F_Twirl": 0.52
+        },
+        "1/2": {
+          "F_Pauli_exact": "1",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 1.0,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.5
+        }
+      }
+    },
+    {
+      "code_name": "rotsurf_d3",
+      "d": 3,
+      "orientation": "X_majority",
+      "n": 9,
+      "parity": "odd",
+      "swap_regime": "swap_collapse_half",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "460181311/500000000",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "15410169089/16000000000",
+          "F_Pauli": 0.920362622,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.9631355680625
+        },
+        "1/10": {
+          "F_Pauli_exact": "1586862/1953125",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "3438693/3906250",
+          "F_Pauli": 0.812473344,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.880305408
+        },
+        "1/5": {
+          "F_Pauli_exact": "1442869/1953125",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "1350688/1953125",
+          "F_Pauli": 0.738748928,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.691552256
+        },
+        "3/10": {
+          "F_Pauli_exact": "13072821/15625000",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "2193289/3906250",
+          "F_Pauli": 0.836660544,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.561481984
+        },
+        "2/5": {
+          "F_Pauli_exact": "1503776/1953125",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "992061/1953125",
+          "F_Pauli": 0.769933312,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.507935232
+        },
+        "1/2": {
+          "F_Pauli_exact": "1/2",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 0.5,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.5
+        }
+      }
+    },
+    {
+      "code_name": "rotsurf_d4_Xmaj",
+      "d": 4,
+      "orientation": "X_majority",
+      "n": 16,
+      "parity": "even",
+      "swap_regime": "swap_collapse_half",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "1851604588819/2000000000000",
+          "F_CPTP_exact": "1851604588819/2000000000000",
+          "F_Twirl_exact": "30485832963919/32000000000000",
+          "F_Pauli": 0.9258022944095,
+          "F_CPTP": 0.9258022944095,
+          "F_Twirl": 0.9526822801224688
+        },
+        "1/10": {
+          "F_Pauli_exact": "405295049/488281250",
+          "F_CPTP_exact": "405295049/488281250",
+          "F_Twirl_exact": "416035649/488281250",
+          "F_Pauli": 0.830044260352,
+          "F_CPTP": 0.830044260352,
+          "F_Twirl": 0.852041009152
+        },
+        "1/5": {
+          "F_Pauli_exact": "35126893/48828125",
+          "F_CPTP_exact": "35126893/48828125",
+          "F_Twirl_exact": "157974737/244140625",
+          "F_Pauli": 0.71939876864,
+          "F_CPTP": 0.71939876864,
+          "F_Twirl": 0.647064522752
+        },
+        "3/10": {
+          "F_Pauli_exact": "157040772/244140625",
+          "F_CPTP_exact": "157040772/244140625",
+          "F_Twirl_exact": "130348072/244140625",
+          "F_Pauli": 0.643239002112,
+          "F_CPTP": 0.643239002112,
+          "F_Twirl": 0.533905702912
+        },
+        "2/5": {
+          "F_Pauli_exact": "131101032/244140625",
+          "F_CPTP_exact": "131101032/244140625",
+          "F_Twirl_exact": "122630257/244140625",
+          "F_Pauli": 0.536989827072,
+          "F_CPTP": 0.536989827072,
+          "F_Twirl": 0.502293532672
+        },
+        "1/2": {
+          "F_Pauli_exact": "1/2",
+          "F_CPTP_exact": "1/2",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 0.5,
+          "F_CPTP": 0.5,
+          "F_Twirl": 0.5
+        }
+      }
+    },
+    {
+      "code_name": "rotsurf_d4_Zmaj",
+      "d": 4,
+      "orientation": "Z_majority",
+      "n": 16,
+      "parity": "even",
+      "swap_regime": "swap_immune_unit",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "455216751119/500000000000",
+          "F_CPTP_exact": "455216751119/500000000000",
+          "F_Twirl_exact": "15204118923719/16000000000000",
+          "F_Pauli": 0.910433502238,
+          "F_CPTP": 0.910433502238,
+          "F_Twirl": 0.9502574327324375
+        },
+        "1/10": {
+          "F_Pauli_exact": "63255083/78125000",
+          "F_CPTP_exact": "63255083/78125000",
+          "F_Twirl_exact": "413857073/488281250",
+          "F_Pauli": 0.8096650624,
+          "F_CPTP": 0.8096650624,
+          "F_Twirl": 0.847579285504
+        },
+        "1/5": {
+          "F_Pauli_exact": "167158689/244140625",
+          "F_CPTP_exact": "167158689/244140625",
+          "F_Twirl_exact": "157225649/244140625",
+          "F_Pauli": 0.684681990144,
+          "F_CPTP": 0.684681990144,
+          "F_Twirl": 0.643996258304
+        },
+        "3/10": {
+          "F_Pauli_exact": "191224573/244140625",
+          "F_CPTP_exact": "191224573/244140625",
+          "F_Twirl_exact": "260325263/488281250",
+          "F_Pauli": 0.783255851008,
+          "F_CPTP": 0.783255851008,
+          "F_Twirl": 0.533146138624
+        },
+        "2/5": {
+          "F_Pauli_exact": "226791913/244140625",
+          "F_CPTP_exact": "226791913/244140625",
+          "F_Twirl_exact": "122618089/244140625",
+          "F_Pauli": 0.928939675648,
+          "F_CPTP": 0.928939675648,
+          "F_Twirl": 0.502243692544
+        },
+        "1/2": {
+          "F_Pauli_exact": "1",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 1.0,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.5
+        }
+      }
+    }
+  ],
+  "phase_repetition": [
+    {
+      "code_name": "rep_phase_d2",
+      "d": 2,
+      "n": 2,
+      "parity": "even",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "19/20",
+          "F_CPTP_exact": "19/20",
+          "F_Twirl_exact": "19/20",
+          "F_Pauli": 0.95,
+          "F_CPTP": 0.95,
+          "F_Twirl": 0.95
+        },
+        "1/10": {
+          "F_Pauli_exact": "9/10",
+          "F_CPTP_exact": "9/10",
+          "F_Twirl_exact": "9/10",
+          "F_Pauli": 0.9,
+          "F_CPTP": 0.9,
+          "F_Twirl": 0.9
+        },
+        "1/5": {
+          "F_Pauli_exact": "4/5",
+          "F_CPTP_exact": "4/5",
+          "F_Twirl_exact": "4/5",
+          "F_Pauli": 0.8,
+          "F_CPTP": 0.8,
+          "F_Twirl": 0.8
+        },
+        "3/10": {
+          "F_Pauli_exact": "7/10",
+          "F_CPTP_exact": "7/10",
+          "F_Twirl_exact": "7/10",
+          "F_Pauli": 0.7,
+          "F_CPTP": 0.7,
+          "F_Twirl": 0.7
+        },
+        "2/5": {
+          "F_Pauli_exact": "3/5",
+          "F_CPTP_exact": "3/5",
+          "F_Twirl_exact": "3/5",
+          "F_Pauli": 0.6,
+          "F_CPTP": 0.6,
+          "F_Twirl": 0.6
+        },
+        "1/2": {
+          "F_Pauli_exact": "1/2",
+          "F_CPTP_exact": "1/2",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 0.5,
+          "F_CPTP": 0.5,
+          "F_Twirl": 0.5
+        }
+      }
+    },
+    {
+      "code_name": "rep_phase_d3",
+      "d": 3,
+      "n": 3,
+      "parity": "odd",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "3971/4000",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "3971/4000",
+          "F_Pauli": 0.99275,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.99275
+        },
+        "1/10": {
+          "F_Pauli_exact": "243/250",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "243/250",
+          "F_Pauli": 0.972,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.972
+        },
+        "1/5": {
+          "F_Pauli_exact": "112/125",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "112/125",
+          "F_Pauli": 0.896,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.896
+        },
+        "3/10": {
+          "F_Pauli_exact": "98/125",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "98/125",
+          "F_Pauli": 0.784,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.784
+        },
+        "2/5": {
+          "F_Pauli_exact": "81/125",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "81/125",
+          "F_Pauli": 0.648,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.648
+        },
+        "1/2": {
+          "F_Pauli_exact": "1/2",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 0.5,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.5
+        }
+      }
+    },
+    {
+      "code_name": "rep_phase_d4",
+      "d": 4,
+      "n": 4,
+      "parity": "even",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "3971/4000",
+          "F_CPTP_exact": "3971/4000",
+          "F_Twirl_exact": "3971/4000",
+          "F_Pauli": 0.99275,
+          "F_CPTP": 0.99275,
+          "F_Twirl": 0.99275
+        },
+        "1/10": {
+          "F_Pauli_exact": "243/250",
+          "F_CPTP_exact": "243/250",
+          "F_Twirl_exact": "243/250",
+          "F_Pauli": 0.972,
+          "F_CPTP": 0.972,
+          "F_Twirl": 0.972
+        },
+        "1/5": {
+          "F_Pauli_exact": "112/125",
+          "F_CPTP_exact": "112/125",
+          "F_Twirl_exact": "112/125",
+          "F_Pauli": 0.896,
+          "F_CPTP": 0.896,
+          "F_Twirl": 0.896
+        },
+        "3/10": {
+          "F_Pauli_exact": "98/125",
+          "F_CPTP_exact": "98/125",
+          "F_Twirl_exact": "98/125",
+          "F_Pauli": 0.784,
+          "F_CPTP": 0.784,
+          "F_Twirl": 0.784
+        },
+        "2/5": {
+          "F_Pauli_exact": "81/125",
+          "F_CPTP_exact": "81/125",
+          "F_Twirl_exact": "81/125",
+          "F_Pauli": 0.648,
+          "F_CPTP": 0.648,
+          "F_Twirl": 0.648
+        },
+        "1/2": {
+          "F_Pauli_exact": "1/2",
+          "F_CPTP_exact": "1/2",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 0.5,
+          "F_CPTP": 0.5,
+          "F_Twirl": 0.5
+        }
+      }
+    },
+    {
+      "code_name": "rep_phase_d5",
+      "d": 5,
+      "n": 5,
+      "parity": "odd",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "1598147/1600000",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "1598147/1600000",
+          "F_Pauli": 0.998841875,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.998841875
+        },
+        "1/10": {
+          "F_Pauli_exact": "12393/12500",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "12393/12500",
+          "F_Pauli": 0.99144,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.99144
+        },
+        "1/5": {
+          "F_Pauli_exact": "2944/3125",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "2944/3125",
+          "F_Pauli": 0.94208,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.94208
+        },
+        "3/10": {
+          "F_Pauli_exact": "20923/25000",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "20923/25000",
+          "F_Pauli": 0.83692,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.83692
+        },
+        "2/5": {
+          "F_Pauli_exact": "2133/3125",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "2133/3125",
+          "F_Pauli": 0.68256,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.68256
+        },
+        "1/2": {
+          "F_Pauli_exact": "1/2",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 0.5,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.5
+        }
+      }
+    },
+    {
+      "code_name": "rep_phase_d6",
+      "d": 6,
+      "n": 6,
+      "parity": "even",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "1598147/1600000",
+          "F_CPTP_exact": "1598147/1600000",
+          "F_Twirl_exact": "1598147/1600000",
+          "F_Pauli": 0.998841875,
+          "F_CPTP": 0.998841875,
+          "F_Twirl": 0.998841875
+        },
+        "1/10": {
+          "F_Pauli_exact": "12393/12500",
+          "F_CPTP_exact": "12393/12500",
+          "F_Twirl_exact": "12393/12500",
+          "F_Pauli": 0.99144,
+          "F_CPTP": 0.99144,
+          "F_Twirl": 0.99144
+        },
+        "1/5": {
+          "F_Pauli_exact": "2944/3125",
+          "F_CPTP_exact": "2944/3125",
+          "F_Twirl_exact": "2944/3125",
+          "F_Pauli": 0.94208,
+          "F_CPTP": 0.94208,
+          "F_Twirl": 0.94208
+        },
+        "3/10": {
+          "F_Pauli_exact": "20923/25000",
+          "F_CPTP_exact": "20923/25000",
+          "F_Twirl_exact": "20923/25000",
+          "F_Pauli": 0.83692,
+          "F_CPTP": 0.83692,
+          "F_Twirl": 0.83692
+        },
+        "2/5": {
+          "F_Pauli_exact": "2133/3125",
+          "F_CPTP_exact": "2133/3125",
+          "F_Twirl_exact": "2133/3125",
+          "F_Pauli": 0.68256,
+          "F_CPTP": 0.68256,
+          "F_Twirl": 0.68256
+        },
+        "1/2": {
+          "F_Pauli_exact": "1/2",
+          "F_CPTP_exact": "1/2",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 0.5,
+          "F_CPTP": 0.5,
+          "F_Twirl": 0.5
+        }
+      }
+    },
+    {
+      "code_name": "rep_phase_d7",
+      "d": 7,
+      "n": 7,
+      "parity": "odd",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "63987611/64000000",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "63987611/64000000",
+          "F_Pauli": 0.999806421875,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.999806421875
+        },
+        "1/10": {
+          "F_Pauli_exact": "124659/125000",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "124659/125000",
+          "F_Pauli": 0.997272,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.997272
+        },
+        "1/5": {
+          "F_Pauli_exact": "15104/15625",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "15104/15625",
+          "F_Pauli": 0.966656,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.966656
+        },
+        "3/10": {
+          "F_Pauli_exact": "218491/250000",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "218491/250000",
+          "F_Pauli": 0.873964,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.873964
+        },
+        "2/5": {
+          "F_Pauli_exact": "11097/15625",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "11097/15625",
+          "F_Pauli": 0.710208,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.710208
+        },
+        "1/2": {
+          "F_Pauli_exact": "1/2",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 0.5,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.5
+        }
+      }
+    },
+    {
+      "code_name": "rep_phase_d8",
+      "d": 8,
+      "n": 8,
+      "parity": "even",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "63987611/64000000",
+          "F_CPTP_exact": "63987611/64000000",
+          "F_Twirl_exact": "63987611/64000000",
+          "F_Pauli": 0.999806421875,
+          "F_CPTP": 0.999806421875,
+          "F_Twirl": 0.999806421875
+        },
+        "1/10": {
+          "F_Pauli_exact": "124659/125000",
+          "F_CPTP_exact": "124659/125000",
+          "F_Twirl_exact": "124659/125000",
+          "F_Pauli": 0.997272,
+          "F_CPTP": 0.997272,
+          "F_Twirl": 0.997272
+        },
+        "1/5": {
+          "F_Pauli_exact": "15104/15625",
+          "F_CPTP_exact": "15104/15625",
+          "F_Twirl_exact": "15104/15625",
+          "F_Pauli": 0.966656,
+          "F_CPTP": 0.966656,
+          "F_Twirl": 0.966656
+        },
+        "3/10": {
+          "F_Pauli_exact": "218491/250000",
+          "F_CPTP_exact": "218491/250000",
+          "F_Twirl_exact": "218491/250000",
+          "F_Pauli": 0.873964,
+          "F_CPTP": 0.873964,
+          "F_Twirl": 0.873964
+        },
+        "2/5": {
+          "F_Pauli_exact": "11097/15625",
+          "F_CPTP_exact": "11097/15625",
+          "F_Twirl_exact": "11097/15625",
+          "F_Pauli": 0.710208,
+          "F_CPTP": 0.710208,
+          "F_Twirl": 0.710208
+        },
+        "1/2": {
+          "F_Pauli_exact": "1/2",
+          "F_CPTP_exact": "1/2",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 0.5,
+          "F_CPTP": 0.5,
+          "F_Twirl": 0.5
+        }
+      }
+    },
+    {
+      "code_name": "rep_phase_d9",
+      "d": 9,
+      "n": 9,
+      "parity": "odd",
+      "evaluations": {
+        "1/20": {
+          "F_Pauli_exact": "51198299023/51200000000",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "51198299023/51200000000",
+          "F_Pauli": 0.9999667777929687,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.9999667777929687
+        },
+        "1/10": {
+          "F_Pauli_exact": "24977727/25000000",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "24977727/25000000",
+          "F_Pauli": 0.99910908,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.99910908
+        },
+        "1/5": {
+          "F_Pauli_exact": "382976/390625",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "382976/390625",
+          "F_Pauli": 0.98041856,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.98041856
+        },
+        "3/10": {
+          "F_Pauli_exact": "45059567/50000000",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "45059567/50000000",
+          "F_Pauli": 0.90119134,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.90119134
+        },
+        "2/5": {
+          "F_Pauli_exact": "286497/390625",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "286497/390625",
+          "F_Pauli": 0.73343232,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.73343232
+        },
+        "1/2": {
+          "F_Pauli_exact": "1/2",
+          "F_CPTP_exact": "1",
+          "F_Twirl_exact": "1/2",
+          "F_Pauli": 0.5,
+          "F_CPTP": 1.0,
+          "F_Twirl": 0.5
+        }
+      }
+    }
+  ]
+}
